@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    private Animator playerAnim;
     private Rigidbody2D rbPlayer;
     public float speed;
     private SpriteRenderer sr;
@@ -11,6 +12,7 @@ public class Player : MonoBehaviour
     public bool inFloor = true;
     void Start()
     {
+        playerAnim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         rbPlayer = GetComponent<Rigidbody2D>();
     }
@@ -29,12 +31,18 @@ public class Player : MonoBehaviour
         transform.position += new Vector3(horizontalMoviment * Time.deltaTime * speed, 0, 0);
         if (horizontalMoviment > 0)
         {
+            playerAnim.SetBool("Walk", true);
             sr.flipX = false;
         }
 
-        if (horizontalMoviment < 0)
+        else if (horizontalMoviment < 0)
         {
+            playerAnim.SetBool("Walk", true);
             sr.flipX = true;
+        }
+        else
+        {
+            playerAnim.SetBool("Walk", false);
         }
     }
 
@@ -42,6 +50,7 @@ public class Player : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump") && inFloor)
         {
+            playerAnim.SetBool("Jump", true);
             rbPlayer.AddForce(new Vector2(0, jumpForge), ForceMode2D.Impulse);
             inFloor = false;
         }
@@ -51,6 +60,7 @@ public class Player : MonoBehaviour
     {
         if (collision.gameObject)
         {
+            playerAnim.SetBool("Jump", false);
             inFloor = true;
         }
     }

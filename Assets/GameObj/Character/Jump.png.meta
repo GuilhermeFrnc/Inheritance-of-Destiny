@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7bc0e112f7fc9a24daa3a9fac603830a
+guid: 804d3e6291e461a4aa1ee839da556518
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -107,32 +107,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: iPhone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -149,148 +123,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Walk_0
+      name: Jump_0
       rect:
         serializedVersion: 2
-        x: 24
+        x: 0
         y: 0
-        width: 70
-        height: 75
+        width: 128
+        height: 88
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 337d43a5b8c8b4e4b90fc00c3c847f77
-      internalID: 958481224
+      spriteID: 16346bcef8b1a9743a887ec73e3bc572
+      internalID: 1690253158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_1
+      name: Jump_1
       rect:
         serializedVersion: 2
-        x: 156
+        x: 128
         y: 0
-        width: 70
-        height: 75
+        width: 128
+        height: 88
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24d42be165d6e4c43b36df2c5eae7d96
-      internalID: -735592186
+      spriteID: a234f1a0b8058d44c8b8942563773eeb
+      internalID: 1851099507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_2
+      name: Jump_2
       rect:
         serializedVersion: 2
-        x: 284
+        x: 256
         y: 0
-        width: 70
-        height: 75
+        width: 128
+        height: 88
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3245627670dc2fb46a76fce1660d97a4
-      internalID: 1601063368
+      spriteID: d0d09fbd3b977994bb47cd7400b92310
+      internalID: 1312578517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_3
+      name: Jump_3
       rect:
         serializedVersion: 2
-        x: 409
+        x: 384
         y: 0
-        width: 70
-        height: 75
+        width: 128
+        height: 88
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e8c015323d0d47418c29bda58868e9e
-      internalID: -2062712560
+      spriteID: 8680d2f41ab8ad740a11e96b324110e7
+      internalID: 474182098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_6
+      name: Jump_4
       rect:
         serializedVersion: 2
-        x: 538
+        x: 512
         y: 0
-        width: 70
-        height: 75
+        width: 128
+        height: 88
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61b487bc6cea756488bbae29841d6884
-      internalID: -767971592
+      spriteID: 57a1b02ce35fba74aa985118d0744960
+      internalID: 1503850392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_7
+      name: Jump_5
       rect:
         serializedVersion: 2
-        x: 665
+        x: 640
         y: 0
-        width: 70
-        height: 75
+        width: 128
+        height: 88
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a21c936a5f27cc24e8e3027e194e5b73
-      internalID: -353092944
+      spriteID: 709ccf1871418c94188b2a500d3c44b4
+      internalID: -247247255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Walk_8
+      name: Jump_6
       rect:
         serializedVersion: 2
-        x: 794
+        x: 768
         y: 0
-        width: 70
-        height: 75
+        width: 128
+        height: 88
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61d35269cd139a44ab195555d93ab043
-      internalID: -515677059
+      spriteID: 930fb32972a2e8847bef10e7cf4adc7e
+      internalID: -14053003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6761b18fbf9f756408a46eb3dedf2852
+      internalID: -1603089632
       vertices: []
       indices: 
       edges: []
@@ -306,15 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Walk_0: 958481224
-      Walk_1: -735592186
-      Walk_2: 1601063368
-      Walk_3: -2062712560
-      Walk_4: -1061076885
-      Walk_5: 912310205
-      Walk_6: -767971592
-      Walk_7: -353092944
-      Walk_8: -515677059
+      Jump_0: 1690253158
+      Jump_1: 1851099507
+      Jump_2: 1312578517
+      Jump_3: 474182098
+      Jump_4: 1503850392
+      Jump_5: -247247255
+      Jump_6: -14053003
+      Jump_7: -1603089632
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
