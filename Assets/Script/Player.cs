@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     private SpriteRenderer sr;
     public float jumpForge;
     public bool inFloor = true;
+    public bool doubleJump;
     void Start()
     {
         playerAnim = GetComponent<Animator>();
@@ -48,11 +49,22 @@ public class Player : MonoBehaviour
 
     void Jump()
     {
-        if (Input.GetButtonDown("Jump") && inFloor)
+        if (Input.GetButtonDown("Jump"))
         {
-            playerAnim.SetBool("Jump", true);
-            rbPlayer.AddForce(new Vector2(0, jumpForge), ForceMode2D.Impulse);
-            inFloor = false;
+            if (inFloor)
+            {
+                playerAnim.SetBool("Jump", true);
+                rbPlayer.AddForce(new Vector2(0, jumpForge), ForceMode2D.Impulse);
+                inFloor = false;
+                doubleJump = true;
+            }
+            else if (inFloor == false && doubleJump)
+            {
+                playerAnim.SetBool("Jump", true);
+                rbPlayer.AddForce(new Vector2(0, jumpForge), ForceMode2D.Impulse);
+                inFloor = false;
+                doubleJump = false;
+            }
         }
     }
 
@@ -62,6 +74,7 @@ public class Player : MonoBehaviour
         {
             playerAnim.SetBool("Jump", false);
             inFloor = true;
+            doubleJump = false;
         }
     }
 }
