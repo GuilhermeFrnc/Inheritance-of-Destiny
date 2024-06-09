@@ -10,9 +10,10 @@ public class Enemy : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
     public bool faceRight = true;
+
     void Start()
     {
-        
+
     }
 
     void Update()
@@ -20,16 +21,16 @@ public class Enemy : MonoBehaviour
         transform.Translate(Vector2.right * speed * Time.deltaTime);
         ground = Physics2D.Linecast(groundCheck.position, transform.position, groundLayer);
 
-        if (ground == false)
+        if (!ground)
         {
             speed *= -1;
         }
 
-        if (speed > 0  && faceRight == false)
+        if (speed > 0 && !faceRight)
         {
             Flip();
         }
-        else if (speed <0 && faceRight)
+        else if (speed < 0 && faceRight)
         {
             Flip();
         }
