@@ -13,6 +13,14 @@ public class Power : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Enemy enemy = collision.gameObject.GetComponent<Enemy>();
+            if (enemy != null)
+            {
+                enemy.Die();
+            }
+        }
         Destroy(gameObject);
     }
 }

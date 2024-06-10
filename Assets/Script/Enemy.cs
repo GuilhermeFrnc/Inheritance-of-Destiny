@@ -104,4 +104,38 @@ public class Enemy : MonoBehaviour
     {
         SceneManager.LoadScene("Fase1");
     }
+
+    public void Die()
+    {
+        // Desativa os colliders
+        Collider2D[] colliders = GetComponents<Collider2D>();
+        foreach (Collider2D collider in colliders)
+        {
+            collider.enabled = false;
+        }
+
+        // Obtém uma referência ao Rigidbody do inimigo
+        Rigidbody2D enemyRigidbody = GetComponent<Rigidbody2D>();
+        if (enemyRigidbody != null)
+        {
+            // Define o Rigidbody como Kinematic para evitar que o inimigo caia
+            enemyRigidbody.bodyType = RigidbodyType2D.Kinematic;
+        }
+
+        // Executa a animação de morte
+        Animator animator = GetComponent<Animator>();
+        if (animator != null)
+        {
+            animator.SetTrigger("Dead");
+        }
+
+        // Deixa o inimigo inativo após um tempo
+        StartCoroutine(DisableEnemy());
+    }
+
+    private IEnumerator DisableEnemy()
+    {
+        yield return new WaitForSeconds(1f); // Ajuste o tempo conforme necessário
+        gameObject.SetActive(false);
+    }
 }
