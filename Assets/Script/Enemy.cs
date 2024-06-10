@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -42,5 +43,65 @@ public class Enemy : MonoBehaviour
         Vector3 Scale = transform.localScale;
         Scale.x *= -1;
         transform.localScale = Scale;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            speed = 0;
+            Animator enemyAnimator = GetComponent<Animator>();
+            if (enemyAnimator != null)
+            {
+                enemyAnimator.SetBool("Attack", true);
+            }
+
+            StartCoroutine(PlayerDeathSequence(collision.gameObject));
+        }
+    }
+
+    private IEnumerator PlayerDeathSequence(GameObject player)
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        Animator enemyAnimator = GetComponent<Animator>();
+        if (enemyAnimator != null)
+        {
+            enemyAnimator.SetBool("Attack", false);
+        }
+
+        Animator playerAnimator = player.GetComponent<Animator>();
+        Rigidbody2D playerRigidbody = player.GetComponent<Rigidbody2D>();
+        CapsuleCollider2D playerCollider = player.GetComponent<CapsuleCollider2D>();
+        Player playerScript = player.GetComponent<Player>();
+
+        if (playerAnimator != null)
+        {
+            playerAnimator.SetTrigger("Dead");
+            playerAnimator.SetBool("Jump", false);
+        }
+
+        if (playerRigidbody != null)
+        {
+            playerRigidbody.velocity = Vector2.zero;
+            playerRigidbody.bodyType = RigidbodyType2D.Kinematic;
+        }
+
+        if (playerCollider != null)
+        {
+            playerCollider.enabled = false;
+        }
+
+        if (playerScript != null)
+        {
+            playerScript.enabled = false;
+        }
+
+        Invoke("LoadScene", 1f);
+    }
+
+    void LoadScene()
+    {
+        SceneManager.LoadScene("Fase1");
     }
 }
