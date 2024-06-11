@@ -1,0 +1,2428 @@
+fileFormatVersion: 2
+guid: feb29dce8b538a048985cd31dfea71e2
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Cave_objects_source_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 737
+        width: 186
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be388ffb7cc9468429ffb02304b97e32
+      internalID: 661854994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 738
+        width: 188
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1224005a92831994e8887d0345449bfb
+      internalID: -310405338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_2
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 745
+        width: 52
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b771f0ea7ba6a9499a8099b24f7b472
+      internalID: 167165720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_3
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 742
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d78a2de77eea94c8e82b511c7b6840
+      internalID: 1560557698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_4
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 740
+        width: 91
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b695da6d99807074eb47ac76f0be2030
+      internalID: -1539507121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 625
+        width: 186
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0fd132f231c9124cb8b1805a3eb9e7c
+      internalID: 2051910235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 626
+        width: 188
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dccd0f804848a19419a09d3b7d8e8a8e
+      internalID: 707799919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_7
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 633
+        width: 52
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfde5d541c2f784aa935a5bdf153893
+      internalID: 1479810016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_8
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 630
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9eb22cd9e993243810025552e0e254
+      internalID: 342521979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_9
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 628
+        width: 91
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b41d98bc4d00541a407369c1cd0f5c
+      internalID: 2025898115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 484
+        width: 111
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863ed6e55725f754290f8cd0e76b071f
+      internalID: 1540212593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_11
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 484
+        width: 137
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4d75028d3b7df418c3bc8fa684d0e1
+      internalID: -1404821164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_12
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 520
+        width: 109
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee58db7b6e1279d4b8f5e4ed17e6818b
+      internalID: 1358408590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_13
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 577
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137e92a3b5c71de4dae30807ade6323d
+      internalID: -219498051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_14
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 577
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac65baec6df3ee42bf1aa0fc660a3ca
+      internalID: -1898319181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_15
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 576
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3d5ab9e2facb846984c16219db5f4b
+      internalID: -1370298102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_16
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 576
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92581ddf2bd9db418327e45a92317c3
+      internalID: -686173261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_17
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 514
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eac0156ebcccc74c863c7913fb22877
+      internalID: -1748429018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_18
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 529
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b57a17e3a0d28499c1a64a43686b6f
+      internalID: 78150029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_19
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 533
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c85f23b62bb12468211c73c8a8a45e
+      internalID: -743969883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_20
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 529
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80c5cfc8cf926645a727bfa7304892d
+      internalID: -387755174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_21
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 533
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f26a663bda84c4eb1cc0ffb3a74f3a
+      internalID: -823867433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_22
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 530
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6745f4641b2b148997cd3d5fc7233b
+      internalID: -673612529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_23
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 530
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc01fd7d1b44e594d9f5d4a62e133ada
+      internalID: 281275587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_24
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 528
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c45f65936394b748806097e867a414d
+      internalID: -2011296415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 484
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be71e08f5a9e1340bf85d65a66637ef
+      internalID: -1840221399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_26
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 482
+        width: 35
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd0fa535a7f7fc4ba07b63a750f0691
+      internalID: 1689343230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_27
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 482
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4a0bcf8e8ae3d4db0dc46822cd4a48
+      internalID: -979469209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_28
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 482
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffaf289a6d5bc3e4194bb36ef1bb9ab8
+      internalID: 688381871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_29
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 480
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e792cc4b503cadd4f9fbc8ce05a083df
+      internalID: 1954564712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_30
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 482
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e191df9dc24e64e8be8750c4695276
+      internalID: 491995456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_31
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 482
+        width: 28
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9464ab94ca74f42b27e453442acaf9
+      internalID: -1943749419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_32
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 482
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19976612bfa6d2d40b712c5da8626a49
+      internalID: -879037108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_33
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 482
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c7707fdb469f043a20086883bd3ce2
+      internalID: 1452318327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_34
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 361
+        width: 91
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08d158b9f3da274ba32f623730e1600
+      internalID: 1446290751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_35
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 361
+        width: 91
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fefc84400e012e4cbf2756c5e8f49a5
+      internalID: 433514883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_36
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 416
+        width: 73
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163e09279b937804882af0ad6add1ce6
+      internalID: -1952430470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_37
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 416
+        width: 73
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1718f2aa58ca74f9fb24acbaa7a7e5
+      internalID: -666569298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_38
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 417
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe603788d8dd1a4f84787a5c0cda206
+      internalID: 195317076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_39
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 417
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3076db53049324141b2bed9e9558a9f9
+      internalID: 9642331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_40
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 417
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9997e162f0b70234ea86b246dbdb06dd
+      internalID: 853063617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_41
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 417
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1f036e30063dd45b9f3dff6471173d
+      internalID: -1441096836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_42
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 421
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a66c0802f7632042bffda8facf6416a
+      internalID: 160452845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_43
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 354
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a214174f899926246a1dadcf9c14b588
+      internalID: -1485415667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_44
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 354
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70dd4b9d773a81445bb04f2bc716774f
+      internalID: -680748151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_45
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 357
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df9058ca9f7ff24d9e9534466518935
+      internalID: -144405854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_46
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 359
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebda503cce10c194388cb1bb50e2c5cd
+      internalID: -511964472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_47
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 359
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca08bac510987c74f92f64c08de4612d
+      internalID: -373114090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_48
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 390
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e95ebcd342eff5b4bbf30f56667ca3b9
+      internalID: 1990176747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_49
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 390
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd6cfb1d1092ec49a413126acfec302
+      internalID: -1456133484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_50
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 388
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afbedf476d96b24fb86cc5531e8b6ca
+      internalID: 150654766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_51
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 388
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7822f75c4ad55364da836f3dd330b16b
+      internalID: -596248965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_52
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 356
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c27e47280192654ab53996e9e8ee0e3
+      internalID: 1761156375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_53
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 356
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bba03ee20e471a478be4150b29bcf44
+      internalID: 212992392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_54
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 355
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5610b9fabecf2d04ca56b3d5b275cc01
+      internalID: -203927619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_55
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 355
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ddb85f0332b4d459847d44e2e96ae8
+      internalID: 311292028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_56
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 284
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472ead747deacab4292594f3910f5f92
+      internalID: -1328262568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_57
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 277
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3724430db5613c44a9ab3c58256707c1
+      internalID: 1396652316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_58
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 257
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558b39ab270647c46a13d4a588847ab8
+      internalID: -719613723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_59
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 284
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87859665c5ff51b4d8af86f1b7c07dc5
+      internalID: 821036638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_60
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 277
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98856038c09d42e4984c8bd56b0cfc74
+      internalID: -459969398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_61
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 257
+        width: 70
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28039f07337c3e49947c52ba3ba4510
+      internalID: 2141492132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_62
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 260
+        width: 86
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1abcdb93b5d7d47960c907e23612f0
+      internalID: 1623775890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_63
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 265
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffae4d51eb88af1409ada03fbdb019b2
+      internalID: 1427661950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_64
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 265
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cebcec993b6b34744bf401d541f0260b
+      internalID: 1142186847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_65
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 259
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c6d6d796a126b4a9c6af798f288a8e
+      internalID: -448682706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_66
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 163
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d74af54bd6c544296bb25687a088e1
+      internalID: 1561576124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_67
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 164
+        width: 86
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8715684957e8e748919409974690351
+      internalID: -2136972155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_68
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 186
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78918489d694d7a47ac89dd73597ace8
+      internalID: 602583446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_69
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 183
+        width: 81
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47471b1c886e1274bbb883059219c3cd
+      internalID: -1091254606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 182
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 791666303c371e745a5fec7efb33d6ec
+      internalID: 785001654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_71
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 187
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c1affadd8da7d458cdc7b84204d534
+      internalID: 188134111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_72
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 177
+        width: 56
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f7d2d0c0a275a448f55fd7eecf149f
+      internalID: -915215600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_73
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 187
+        width: 58
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c19767c97ea2c419024936ec305fff
+      internalID: -80891087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_74
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 178
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccdfa6b79fd420d4cb89657c8459d9a8
+      internalID: -982833551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_75
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 82
+        width: 41
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff7b3eb60dcdde4f80674cde3f739af
+      internalID: 159120917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_76
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 84
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bc554c353297642a3ca1ea047ecdfd
+      internalID: -1077522221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_77
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 103
+        width: 81
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8545df0a26a10a04f96c36327fea6a98
+      internalID: 1490309918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_78
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 102
+        width: 63
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a3770c79e354245acf5914606d31e7
+      internalID: -688184134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_79
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 106
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b33992dff1d6b4384ece4f5cdba9b2
+      internalID: -717545494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_80
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 105
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a6894bc0932274c9a8c3bcbda581b5
+      internalID: -1637069409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_81
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 100
+        width: 64
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445d3b2be1a09ae4e8d25ab2855a9e18
+      internalID: 1952839588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_82
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 97
+        width: 56
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962f9e43304aac74db1eb7f2e33bcbae
+      internalID: 1679896761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_83
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 9
+        width: 52
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c8fe16708409c45a23749637a2897e
+      internalID: -234923488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_84
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 37
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bf108685e036e4a8236090a79cfef4
+      internalID: -1187044590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_85
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 37
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd0663b37a605164ba1b77ea7c4dd266
+      internalID: -351994866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_86
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 35
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5948102e30d9d4b82875f891962ace
+      internalID: -2147428261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_87
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 35
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 947d0694f3cf913439b85b8cfa0f2c11
+      internalID: -724230414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_88
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 39
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c88d86fd99a7b458ebfd4f8c57c1c6
+      internalID: -398537301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_89
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 39
+        width: 21
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297522659acdb904bb5f7ccae772c3cc
+      internalID: 10132562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_90
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 32
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9705e642a05e54198a2c259af1da07
+      internalID: -1893998903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_91
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 32
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bc791b186013984e960aa525088b2f2
+      internalID: -966597947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_92
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 37
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb6db5c2b57ed34b86327e411f22b9a
+      internalID: 1034222411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_93
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 37
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1ddace8e210374b85007066405f34a
+      internalID: 1392673399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_94
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 35
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95987243354612479055de8d8fff354
+      internalID: -830260033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_95
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 35
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998af4cb1b68532449765e84dfe46037
+      internalID: -1454015283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_96
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7dd990d65c0c642b6cb8cd0bc95e4a
+      internalID: -1233267487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_97
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69de510d6a9d8a4f91fcc45a8ea8aa9
+      internalID: -1862663861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_98
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 3
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36010ea170b7ae34aa0ee438bdf1d754
+      internalID: 1892175609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_99
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 3
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0ebe9ddaffd1748b80833c60c213c8
+      internalID: 2056369776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_100
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 17
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd4fa0fb72b586840b8b194ebf7254c1
+      internalID: -1060389057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_101
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 18
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68940562748acf48b514462a2ccbe83
+      internalID: -2049110372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_102
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 17
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a662050d8ec943e4c99a30b37937b218
+      internalID: 1654072721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cave_objects_source_103
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 18
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff19c1d9addb634cbe11c5f6239fee0
+      internalID: -1377446342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cave_objects_source_0: 661854994
+      Cave_objects_source_1: -310405338
+      Cave_objects_source_10: 1540212593
+      Cave_objects_source_100: -1060389057
+      Cave_objects_source_101: -2049110372
+      Cave_objects_source_102: 1654072721
+      Cave_objects_source_103: -1377446342
+      Cave_objects_source_11: -1404821164
+      Cave_objects_source_12: 1358408590
+      Cave_objects_source_13: -219498051
+      Cave_objects_source_14: -1898319181
+      Cave_objects_source_15: -1370298102
+      Cave_objects_source_16: -686173261
+      Cave_objects_source_17: -1748429018
+      Cave_objects_source_18: 78150029
+      Cave_objects_source_19: -743969883
+      Cave_objects_source_2: 167165720
+      Cave_objects_source_20: -387755174
+      Cave_objects_source_21: -823867433
+      Cave_objects_source_22: -673612529
+      Cave_objects_source_23: 281275587
+      Cave_objects_source_24: -2011296415
+      Cave_objects_source_25: -1840221399
+      Cave_objects_source_26: 1689343230
+      Cave_objects_source_27: -979469209
+      Cave_objects_source_28: 688381871
+      Cave_objects_source_29: 1954564712
+      Cave_objects_source_3: 1560557698
+      Cave_objects_source_30: 491995456
+      Cave_objects_source_31: -1943749419
+      Cave_objects_source_32: -879037108
+      Cave_objects_source_33: 1452318327
+      Cave_objects_source_34: 1446290751
+      Cave_objects_source_35: 433514883
+      Cave_objects_source_36: -1952430470
+      Cave_objects_source_37: -666569298
+      Cave_objects_source_38: 195317076
+      Cave_objects_source_39: 9642331
+      Cave_objects_source_4: -1539507121
+      Cave_objects_source_40: 853063617
+      Cave_objects_source_41: -1441096836
+      Cave_objects_source_42: 160452845
+      Cave_objects_source_43: -1485415667
+      Cave_objects_source_44: -680748151
+      Cave_objects_source_45: -144405854
+      Cave_objects_source_46: -511964472
+      Cave_objects_source_47: -373114090
+      Cave_objects_source_48: 1990176747
+      Cave_objects_source_49: -1456133484
+      Cave_objects_source_5: 2051910235
+      Cave_objects_source_50: 150654766
+      Cave_objects_source_51: -596248965
+      Cave_objects_source_52: 1761156375
+      Cave_objects_source_53: 212992392
+      Cave_objects_source_54: -203927619
+      Cave_objects_source_55: 311292028
+      Cave_objects_source_56: -1328262568
+      Cave_objects_source_57: 1396652316
+      Cave_objects_source_58: -719613723
+      Cave_objects_source_59: 821036638
+      Cave_objects_source_6: 707799919
+      Cave_objects_source_60: -459969398
+      Cave_objects_source_61: 2141492132
+      Cave_objects_source_62: 1623775890
+      Cave_objects_source_63: 1427661950
+      Cave_objects_source_64: 1142186847
+      Cave_objects_source_65: -448682706
+      Cave_objects_source_66: 1561576124
+      Cave_objects_source_67: -2136972155
+      Cave_objects_source_68: 602583446
+      Cave_objects_source_69: -1091254606
+      Cave_objects_source_7: 1479810016
+      Cave_objects_source_70: 785001654
+      Cave_objects_source_71: 188134111
+      Cave_objects_source_72: -915215600
+      Cave_objects_source_73: -80891087
+      Cave_objects_source_74: -982833551
+      Cave_objects_source_75: 159120917
+      Cave_objects_source_76: -1077522221
+      Cave_objects_source_77: 1490309918
+      Cave_objects_source_78: -688184134
+      Cave_objects_source_79: -717545494
+      Cave_objects_source_8: 342521979
+      Cave_objects_source_80: -1637069409
+      Cave_objects_source_81: 1952839588
+      Cave_objects_source_82: 1679896761
+      Cave_objects_source_83: -234923488
+      Cave_objects_source_84: -1187044590
+      Cave_objects_source_85: -351994866
+      Cave_objects_source_86: -2147428261
+      Cave_objects_source_87: -724230414
+      Cave_objects_source_88: -398537301
+      Cave_objects_source_89: 10132562
+      Cave_objects_source_9: 2025898115
+      Cave_objects_source_90: -1893998903
+      Cave_objects_source_91: -966597947
+      Cave_objects_source_92: 1034222411
+      Cave_objects_source_93: 1392673399
+      Cave_objects_source_94: -830260033
+      Cave_objects_source_95: -1454015283
+      Cave_objects_source_96: -1233267487
+      Cave_objects_source_97: -1862663861
+      Cave_objects_source_98: 1892175609
+      Cave_objects_source_99: 2056369776
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
