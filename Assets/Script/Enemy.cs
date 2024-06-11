@@ -102,7 +102,7 @@ public class Enemy : MonoBehaviour
 
     void LoadScene()
     {
-        SceneManager.LoadScene("Fase1");
+        SceneManager.LoadScene("GameOver");
     }
 
     public void Die()

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Camera : MonoBehaviour
 {
+    internal static object current;
     public Transform player;
 
     private void FixedUpdate()
