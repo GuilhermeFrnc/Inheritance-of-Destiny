@@ -5,9 +5,12 @@ using UnityEngine;
 public class Power : MonoBehaviour
 {
     public float lifetime = 2f;
+    private AudioSource sound;
 
     void Start()
     {
+        sound = GetComponent<AudioSource>();
+        sound.Play();
         Destroy(gameObject, lifetime);
     }
 

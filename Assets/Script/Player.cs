@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     public Transform powerSpawnPointRight;
     public GameObject powerPrefab;
     public float powerSpeed;
+    private AudioSource sound;
     void Start()
     {
         playerAnim = GetComponent<Animator>();
@@ -37,7 +38,6 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             playerAnim.SetTrigger("Player_power");
-
             Transform selectedSpawnPoint = sr.flipX ? powerSpawnPointLeft : powerSpawnPointRight;
             var power = Instantiate(powerPrefab, selectedSpawnPoint.position, selectedSpawnPoint.rotation);
             Vector2 direction = sr.flipX ? -selectedSpawnPoint.right : selectedSpawnPoint.right;
@@ -84,11 +84,13 @@ public class Player : MonoBehaviour
 
     void Jump()
     {
+        sound = GetComponent<AudioSource>();
         if (Input.GetButtonDown("Jump"))
         {
             if (inFloor)
             {
                 playerAnim.SetBool("Jump", true);
+                sound.Play();
                 rbPlayer.AddForce(new Vector2(0, jumpForge), ForceMode2D.Impulse);
                 inFloor = false;
                 doubleJump = true;
@@ -96,6 +98,7 @@ public class Player : MonoBehaviour
             else if (inFloor == false && doubleJump)
             {
                 playerAnim.SetBool("Jump", true);
+                sound.Play();
                 rbPlayer.AddForce(new Vector2(0, jumpForge), ForceMode2D.Impulse);
                 inFloor = false;
                 doubleJump = false;

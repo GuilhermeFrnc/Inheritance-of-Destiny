@@ -11,10 +11,22 @@ public class Enemy : MonoBehaviour
     public Transform groundCheck;
     public LayerMask groundLayer;
     public bool faceRight = true;
+    private AudioSource attackAudioSource;
+    private AudioSource deathAudioSource;
+    private AudioSource deathAudioSourcePlayer;
+    public AudioClip attackSound;
+    public AudioClip deathSound;
+    public AudioClip deathSoundPlayer;
 
     void Start()
     {
+        attackAudioSource = gameObject.AddComponent<AudioSource>();
+        deathAudioSource = gameObject.AddComponent<AudioSource>();
+        deathAudioSourcePlayer = gameObject.AddComponent<AudioSource>();
 
+        attackAudioSource.clip = attackSound;
+        deathAudioSource.clip = deathSound;
+        deathAudioSourcePlayer.clip = deathSoundPlayer;
     }
 
     void Update()
@@ -63,7 +75,7 @@ public class Enemy : MonoBehaviour
     private IEnumerator PlayerDeathSequence(GameObject player)
     {
         yield return new WaitForSeconds(0.5f);
-
+        PlayAttackSound();
         Animator enemyAnimator = GetComponent<Animator>();
         if (enemyAnimator != null)
         {
@@ -78,6 +90,7 @@ public class Enemy : MonoBehaviour
         if (playerAnimator != null)
         {
             playerAnimator.SetTrigger("Dead");
+                PlayDeathSoundPlayer();
             playerAnimator.SetBool("Jump", false);
         }
 
@@ -117,6 +130,7 @@ public class Enemy : MonoBehaviour
         if (animator != null)
         {
             animator.SetTrigger("Dead");
+            PlayDeathSound();
         }
 
         StartCoroutine(DisableEnemy());
@@ -126,5 +140,19 @@ public class Enemy : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
         gameObject.SetActive(false);
+    }
+
+    public void PlayAttackSound()
+    {
+        attackAudioSource.Play();
+    }
+    public void PlayDeathSound()
+    {
+        deathAudioSource.Play();
+    }
+
+    public void PlayDeathSoundPlayer()
+    {
+        deathAudioSourcePlayer.Play();
     }
 }
